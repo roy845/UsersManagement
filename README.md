@@ -46,7 +46,7 @@ The project utilizes server data from the following links:
 - Editing user data and clicking "Update" updates the user's data.
 - Clicking "Delete" removes all data associated with the user.
 
-<img src = "https://imgtr.ee/images/2023/06/20/ZWpEJ.png" width="800" height="400">
+<img src = "https://imgtr.ee/images/2023/06/20/ZWWDX.png" width="800" height="400">
 
 ## Case 5: Selecting User
 
