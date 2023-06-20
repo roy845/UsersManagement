@@ -14,6 +14,8 @@ The project utilizes server data from the following links:
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" width="124" height="124">
 
+<img src="https://upload.wikimedia.org/wikipedia/he/a/a7/React-icon.svg" width="124" height="124">
+
 ## Installation
 
 ### Client
