@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+# React Project - Client-Side Database Management
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project aims to demonstrate client-side database management using React.
 
-## Available Scripts
+The project utilizes server data from the following links:
 
-In the project directory, you can run:
+- Users: https://jsonplaceholder.typicode.com/users
+- Posts: https://jsonplaceholder.typicode.com/posts
+- Todos: https://jsonplaceholder.typicode.com/todos
 
-### `npm start`
+## Prerequisites
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg" width="124" height="124">
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" width="124" height="124">
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Client
 
-### `npm run build`
+1. Open a new terminal.
+2. Install dependencies: `npm/yarn install`.
+3. Run the client: npm/yarn start.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Case 1: Application Start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- The UI displays all users' data ordered by their ID.
+- Users with uncompleted tasks (todos) are marked with a red border, while other users have a green border.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<img src = "https://imgtr.ee/images/2023/06/20/ZWJ4I.png" height="100%">
 
-### `npm run eject`
+## Case 2: Search
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Entering text in the search text box filters the user list to display only users whose name or email contains the entered text.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<img src = "https://imgtr.ee/images/2023/06/20/ZWv27.png" height="100%">
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Case 3: Other Data
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Mouse over the "Other Data" section to reveal additional data.
+- Clicking on the "Mouse Over" section closes the expanded section.
+  <img src = "https://imgtr.ee/images/2023/06/20/ZW2xA.png" height="100%">
 
-## Learn More
+## Case 4: Update/Delete Data
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Editing user data and clicking "Update" updates the user's data.
+- Clicking "Delete" removes all data associated with the user.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<img src = "https://imgtr.ee/images/2023/06/20/ZWpEJ.png" width="800" height="400">
 
-### Code Splitting
+## Case 5: Selecting User
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Clicking on the ID label highlights the user's region in orange.
+- The user's posts and todos are displayed.
+- Uncompleted todos have a "Mark Completed" button to complete the task.
 
-### Analyzing the Bundle Size
+<img src = "https://imgtr.ee/images/2023/06/20/ZWQDr.png" width="800" height="400">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Case 6: Add New ToDo
 
-### Making a Progressive Web App
+- Clicking "Add" above the "ToDo" list replaces the list with a form to add a new todo.
+- Clicking "Cancel" brings back the "ToDo" list.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<img src = "https://imgtr.ee/images/2023/06/20/ZWYgc.png" width="800" height="400">
 
-### Advanced Configuration
+## Case 7: Add New Post
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Clicking "Add" above the "Posts" list replaces the list with a form to add a new post.
+- Clicking "Cancel" brings back the "Posts" list.
 
-### Deployment
+<img src = "https://imgtr.ee/images/2023/06/20/ZWm2Y.png" width="800" height="400">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Case 8: Add New User
 
-### `npm run build` fails to minify
+- Clicking "Add" above the "Users" list navigates to a new user screen.
+- The "Other Data" section is not available during user creation but only when updating user data.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<img src = "https://imgtr.ee/images/2023/06/20/ZWrjs.png" width="800" height="400">
