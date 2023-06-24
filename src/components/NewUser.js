@@ -132,7 +132,7 @@ const AddPost = ({ addNewUser, setShowAddUser, users }) => {
             color="primary"
             sx={{ backgroundColor: "green" }}
             onClick={addUser}
-            disabled={!newUser.email && !newUser.name}
+            disabled={!newUser.email || !newUser.name}
           >
             ADD
           </Button>
