@@ -63,14 +63,14 @@ The project utilizes server data from the following links:
 - Clicking "Add" above the "ToDo" list replaces the list with a form to add a new todo.
 - Clicking "Cancel" brings back the "ToDo" list.
 
-<img src = "https://imgtr.ee/images/2023/06/20/ZWYgc.png" width="800" height="400">
+<img src = "https://imgtr.ee/images/2023/06/24/d0nOb.png" width="800" height="400">
 
 ## Case 7: Add New Post
 
 - Clicking "Add" above the "Posts" list replaces the list with a form to add a new post.
 - Clicking "Cancel" brings back the "Posts" list.
 
-<img src = "https://imgtr.ee/images/2023/06/20/ZWm2Y.png" width="800" height="400">
+<img src = "https://imgtr.ee/images/2023/06/24/d0yb7.png" width="800" height="400">
 
 ## Case 8: Add New User
 
