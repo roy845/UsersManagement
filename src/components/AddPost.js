@@ -89,7 +89,7 @@ const AddPost = ({ userId, addNewPost, setShowAddPost }) => {
           alignItems: "center",
         }}
       >
-        <h2 style={{ marginLeft: "45px" }}>New Post - {userId} </h2>
+        <h2 style={{ marginLeft: "45px" }}>New Post - User {userId} </h2>
       </div>
       <div className={classes.scrollableContainer} ref={scrollableContainerRef}>
         <TextField
