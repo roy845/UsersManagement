@@ -133,7 +133,7 @@ const AddPost = ({ userId, addNewPost, setShowAddPost }) => {
             color="primary"
             sx={{ backgroundColor: "green" }}
             onClick={addPost}
-            disabled={!newPost.title && !newPost.body}
+            disabled={!newPost.title || !newPost.body}
           >
             ADD
           </Button>
