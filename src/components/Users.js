@@ -99,6 +99,7 @@ const Users = ({
     if (selectedUserId === userId) {
       setSelectedTodos((prevSelectedTodos) => {
         if (prevSelectedTodos.length === 0) {
+          handleUserSelect(null);
           return todos.filter((todo) => todo.userId === userId);
         } else {
           handleUserSelect(null);
@@ -115,6 +116,7 @@ const Users = ({
     if (selectedUserId === userId) {
       setSelectedPosts((prevSelectedPosts) => {
         if (prevSelectedPosts.length === 0) {
+          handleUserSelect(null);
           return posts.filter((post) => post.userId === userId);
         } else {
           handleUserSelect(null);
