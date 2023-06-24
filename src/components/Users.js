@@ -101,6 +101,7 @@ const Users = ({
         if (prevSelectedTodos.length === 0) {
           return todos.filter((todo) => todo.userId === userId);
         } else {
+          handleUserSelect(null);
           return [];
         }
       });
@@ -116,6 +117,7 @@ const Users = ({
         if (prevSelectedPosts.length === 0) {
           return posts.filter((post) => post.userId === userId);
         } else {
+          handleUserSelect(null);
           return [];
         }
       });
@@ -253,7 +255,7 @@ const Users = ({
                 : "3px solid red",
               background:
                 selectedUserId === user.id && selectedTodos.length === 0
-                  ? "white"
+                  ? "orange"
                   : null,
             }}
           >
