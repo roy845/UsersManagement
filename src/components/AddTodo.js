@@ -89,7 +89,7 @@ const AddTodo = ({ userId, addNewTodo, setShowAddTodo }) => {
           alignItems: "center",
         }}
       >
-        <h2 style={{ marginLeft: "45px" }}>New Todo - {userId} </h2>
+        <h2 style={{ marginLeft: "45px" }}>New Todo - User {userId} </h2>
       </div>
       <div className={classes.scrollableContainer} ref={scrollableContainerRef}>
         <TextField
